@@ -29,3 +29,16 @@ body {
     background-color: white;
     margin-right: 5px;
 }
+
+#ele1 {
+    width: 425px;
+    height: 300px;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    margin: 25px auto;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 125px;
+}
