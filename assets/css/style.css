@@ -1,3 +1,31 @@
 body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app {
+    width: 425px;
+    height: 300px;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    margin: 150px auto;
+    background-image: url('https://lever-client-logos.s3.us-west-2.amazonaws.com/25f40b68-174d-4990-91d5-3781ff4f98fe-1658775335303.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.app1 {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 2px solid green;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    background-color: white;
+    margin-right: 5px;
 }
