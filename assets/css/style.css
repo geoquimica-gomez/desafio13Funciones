@@ -30,15 +30,58 @@ body {
     margin-right: 5px;
 }
 
+.text-r2 {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 600;
+}
+
 #ele1 {
     width: 425px;
     height: 300px;
     border: 2px solid aliceblue;
     border-radius: 10px;
     margin: 25px auto;
+    cursor: pointer;
 }
 
 h4 {
     text-align: center;
     margin-top: 125px;
+    text-decoration: underline;
+}
+
+.app2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+#div1, #div2, #div3, #div4 {
+    cursor: pointer;
+    border: 5px solid aliceblue;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+
+.links a {
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid aliceblue;
+    cursor: pointer;
+    background-color: green;
+    font-size: 1.2rem;
+    color: aliceblue;
+    border-radius: 3px;
+}
+
+.links a:hover {
+    color: green;
+    background-color: aliceblue;
 }
